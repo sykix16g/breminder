@@ -16,16 +16,6 @@ router
   .get("/", (req, res) => {
     // index.ejsをレンダリング
     res.render("index.ejs");
-  })
-  .post("/", (req, res) => {
-    res.setHeader('Content-Type', 'text/html');
-    console.log(req.body);
-
-    // リクエストを保存
-    store.SaveReminder(req.body.date, req.body.time, req.body.description);
-
-    // index.ejsをレンダリング
-    res.render("index.ejs");
   });
 
 
