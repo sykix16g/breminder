@@ -37,4 +37,4 @@ node.js がインストールされている必要があります。
 * LocalStorageへの保管：Store.js（https://github.com/marcuswestin/store.js/）
 * CSSテンプレート：Materialize（https://materializecss.com）
 * ルーティング：Express（https://expressjs.com）
-* ブリ大根：いらすとや様（https://www.irasutoya.com/）
+* ブリ大根：いらすとや（https://www.irasutoya.com/）
